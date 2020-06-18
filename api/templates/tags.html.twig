@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    {% if (response ?? false) %}
+        {{ dump(response) }}
+    {% endif %}
+
+    {% if (result ?? false) %}
+        {{ dump(result) }}
+    {% endif %}
+{% endblock %}

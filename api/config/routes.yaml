@@ -1,0 +1,11 @@
+index:
+    path: /
+    controller: App\Controller\DefaultController::index
+tags:
+    path: /tags
+    controller: App\Controller\DefaultController::tags
+    methods: POST
+tags-id:
+    path: /tags/{id}
+    controller: App\Controller\DefaultController::tagsId
+    methods: GET

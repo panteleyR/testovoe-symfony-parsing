@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+    <form action="/tags" method="post">
+        <input type="text" name="url" value="https://stackoverflow.com/questions/23062537/how-to-convert-html-to-json-using-php">
+        <input type="submit" value="отправить">
+    </form>
+{% endblock %}
